@@ -58,8 +58,15 @@ wine-quality/
 
 2. Instalar las dependencias:
    ```bash
-   pip install numpy pandas matplotlib seaborn scikit-learn scipy
+   pip install -r requirements.txt
    ```
+
+   Si prefieres instalar manualmente, usa:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scipy scikit-learn joblib
+   ```
+
+   > Importante: instala los paquetes en el mismo intérprete o kernel que ejecuta el notebook. En VS Code, selecciona el kernel correcto antes de correr las celdas de importación.
 
 3. Abrir el notebook principal:
    ```bash
